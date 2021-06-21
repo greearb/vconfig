@@ -1,0 +1,20 @@
+Here lies contributions from the community at large that for one
+reason or another (laziness on my part, and lack of testing, are
+valid reasons!), are not in the main distribution.
+
+If any of these seem particularly stable or useful, let me
+know and I will consider adding them to the main patch.
+
+Descriptions:
+network
+  "Thanks for the great vconfig patch/tool.  I submit to you a minor
+  change to the RedHat 7.3 /etc/rc.d/init.d/network script that
+  recognizes VLAN interfaces /etc/sysconfig/network-scripts/ifcfg-ethx.y , 
+  and makes appropriate calls to vconfig prior to bringing the
+  interface up.  This makes startup more straightforward,
+  and may be of use to your website visitors.
+  -Derek"
+
+
+
+ Thanks, Ben Greear (greearb@candelatech.com)
